@@ -35,7 +35,7 @@ function main() {
 main();
 
 
-//affichages dots//
+//affichage dots//
 function displayDots() {
 	for (let i = 0; i < slides.length; i++) {
 		const dot = document.createElement("div");
@@ -48,7 +48,7 @@ function displayDots() {
 }
 
 
-//affichages click droit//
+//affichage click droit//
 function clickRight() {
 	arrowRight.addEventListener("click",() => {
 		const arrayDots = document.querySelectorAll(".dots .dot");	
@@ -64,7 +64,7 @@ function clickRight() {
 }
 
 
-//affichages click gauche//
+//affichage click gauche//
 function clickLeft() {
 	arrowLeft.addEventListener("click",() => {
 		const arrayDots = document.querySelectorAll(".dots .dot");	
